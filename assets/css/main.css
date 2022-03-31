@@ -42,6 +42,10 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	span.small {
+		font-size: smaller;
+	}
+
 /* Box Model */
 
 	*, *:before, *:after {
