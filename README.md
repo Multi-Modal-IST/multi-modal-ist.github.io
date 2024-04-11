@@ -17,9 +17,8 @@ Abstracted from a Project Report at [ISR](http://welcome.isr.tecnico.ulisboa.pt/
 
 
 ### Created by
-
-[Catarina Barata] [http://web.tecnico.ulisboa.pt/francisco.calisto/] (http://users.isr.ist.utl.pt/~cbarata/#/) "Catarina's Academic Profile")  
-[Mª Rita Verdelho] ([https://welcome.isr.tecnico.ulisboa.pt/author/ritaverdelho/]  "Rita's Academic Profile")   
+[Catarina Barata] [http://users.isr.ist.utl.pt/~cbarata/#/] 
+[Mª Rita Verdelho] [https://welcome.isr.tecnico.ulisboa.pt/author/ritaverdelho/]    
  
 [ISR](http://welcome.isr.tecnico.ulisboa.pt/), [IST](http://tecnico.ulisboa.pt/) - [ULisboa](http://ulisboa.pt/)
 
