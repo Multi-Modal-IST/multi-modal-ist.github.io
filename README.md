@@ -28,7 +28,7 @@ Abstracted from a Project Report at [ISR](http://welcome.isr.tecnico.ulisboa.pt/
 [ISR](http://welcome.isr.tecnico.ulisboa.pt/), [IST](http://tecnico.ulisboa.pt/) - [ULisboa](http://ulisboa.pt/)
 
 ### Contact Info: 
-[ana.c.fidalgo.barata@tecnico.ulisboa.pt](ana.c.fidalgo.barata@tecnico.ulisboa.pt), [ritaverdelho@tecnico.ulisboa.pt] (ritaverdelho@tecnico.ulisboa.pt)
+[ana.c.fidalgo.barata@tecnico.ulisboa.pt](ana.c.fidalgo.barata@tecnico.ulisboa.pt), [ritaverdelho@tecnico.ulisboa.pt](@tecnico.ulisboa.pt)
 
 
   
