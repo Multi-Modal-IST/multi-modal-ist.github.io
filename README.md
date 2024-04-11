@@ -10,11 +10,7 @@ is still a very challenging task. The ongoing research on this topic has led to 
   | Train | 497 | 189 | 35 | 497 | 361 | 497 |
   | Test  | 121 | 59 | 13| 121| 101 | 121 |
   | Total | 618 | 248 | 48 | 618 | 462 | 618 |
-
-
-  ## Links 
-  [Office] [https://welcome.isr.tecnico.ulisboa.pt/]
-
+  
 
 ### Institute for Systems and Robotics (ISR-Lisboa)
 Abstracted from a Project Report at [ISR](http://welcome.isr.tecnico.ulisboa.pt/), [IST](http://tecnico.ulisboa.pt/) - [Universidade de Lisboa](http://ulisboa.pt/).
