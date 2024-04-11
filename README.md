@@ -14,13 +14,13 @@ is still a very challenging task. The ongoing research on this topic has led to 
 
 ### Institute for Systems and Robotics (ISR-Lisboa)
 Abstracted from a Project Report at [ISR](http://welcome.isr.tecnico.ulisboa.pt/), [IST](http://tecnico.ulisboa.pt/) - [Universidade de Lisboa](http://ulisboa.pt/).
-
+[ISR](http://welcome.isr.tecnico.ulisboa.pt/), [IST](http://tecnico.ulisboa.pt/) - [ULisboa](http://ulisboa.pt/)
 
 ### Created by
  [http://users.isr.ist.utl.pt/~cbarata/#/] (Catarina Barata)
  [https://welcome.isr.tecnico.ulisboa.pt/author/ritaverdelho/] (Mª Rita Verdelho)
  
-[ISR](http://welcome.isr.tecnico.ulisboa.pt/), [IST](http://tecnico.ulisboa.pt/) - [ULisboa](http://ulisboa.pt/)
+
 
 ### Contact Info: 
 [ana.c.fidalgo.barata@tecnico.ulisboa.pt](ana.c.fidalgo.barata@tecnico.ulisboa.pt), [ritaverdelho@tecnico.ulisboa.pt](@tecnico.ulisboa.pt)
