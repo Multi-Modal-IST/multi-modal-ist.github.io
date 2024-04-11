@@ -10,8 +10,7 @@ To access the website click [here](https://multi-modal-ist-mmist.github.io/MMIST
 Abstracted from a Project Report at [ISR](http://welcome.isr.tecnico.ulisboa.pt/), [IST](http://tecnico.ulisboa.pt/) - [Universidade de Lisboa](http://ulisboa.pt/).
 
 
-#### Contact Info: 
-[ana.c.fidalgo.barata@tecnico.ulisboa.pt](ana.c.fidalgo.barata@tecnico.ulisboa.pt), [ritaverdelho@tecnico.ulisboa.pt](@tecnico.ulisboa.pt)
+#### Contact Info: [ana.c.fidalgo.barata@tecnico.ulisboa.pt](ana.c.fidalgo.barata@tecnico.ulisboa.pt), [ritaverdelho@tecnico.ulisboa.pt](@tecnico.ulisboa.pt)
 
 
   
