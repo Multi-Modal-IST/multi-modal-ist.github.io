@@ -118,26 +118,27 @@
         </div>
         <div class="container">
             <h2>Download the Multi-Modal Data</h2>
+            
             <h3>Download WSIs</h3>
             <p>Below you have the links where you can access the original dataset both from TCGA (XXGB) and CPTAC ('Tissue Slide Images' with 190GB) and the CSV containing the selected files that we used. Be aware that for the TCGA we provide the manifest file that you can use directly with the GDC Data Transfer tool.</p>
             <ul class="actions">
-                <li><a href="https://faspex.cancerimagingarchive.net/aspera/faspex/public/package?context=eyJyZXNvdXJjZSI6InBhY2thZ2VzIiwidHlwZSI6Im5vZGUiLCJhY3Rpb24iOiJ2aWV3IiwidWlkIjo0NDc4MjZ9" class="button">Download the CPTAC-CCRCC Dataset</a></li>
-                <li><a href="https://gdc.cancer.gov/access-data/gdc-data-transfer-tool" class="button">Download the TCGA-KIRC Dataset</a></li>
-                <li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/wsi_filenames.csv" class="button">Download the CSV</a></li>
+                <li><a href="https://faspex.cancerimagingarchive.net/aspera/faspex/public/package?context=eyJyZXNvdXJjZSI6InBhY2thZ2VzIiwidHlwZSI6ImV4dGVybmFsX2Rvd25sb2FkX3BhY2thZ2UiLCJpZCI6IjU4NCIsInBhc3Njb2RlIjoiMTczZGYwYjBmMTI1Y2IxOTY0MmU2NmIyOGIzYzdlMjkwMmJjNWU1MiIsInBhY2thZ2VfaWQiOiI1ODQiLCJlbWFpbCI6ImhlbHBAY2FuY2VyaW1hZ2luZ2FyY2hpdmUubmV0In0=&redirected=true" class="button">CPTAC Data</a></li>
+				<li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/gdc_manifest.2024-05-27.txt" class="button">TCGA Data Manifest</a></li>
+				<li><a href="https://gdc.cancer.gov/access-data/gdc-data-transfer-tool" class="button">Learn more about GDC Data Transfer Tool</a></li>
             </ul>
-            <h3>Download the CT images</h3>
-            <p>Below you can access the CT images from the same patients both from TCGA (80GB) and CPTAC repositories (CPTAC+CT+Images: 47GB), as well as the CSV with the filenames and IDs that we used in our repository.</p>
+            
+            <h3>Download the CT and MRI images</h3>
+            <p>Below you can access the CT and MRI images from the same patients both from TCGA ('Images': 91.56GB) and CPTAC repositories ('Radiology Images': 56.58GB), as well as the CSV with the filenames and IDs that we used in our repository.</p>
+			 <p>We discarded the localization scans, the pre-contrast ones, and scans that were acquired with a significant time lapse from the diagnosis (years). We also removed the scans from the coronal and sagittal views, to minimize
+            domain shifts. We reduced the number of volumes to 736 for CT and 552 for MRI.</p>
             <ul class="actions">
-                <li><a href="https://www.synapse.org/#!Synapse:syn3193805/wiki/217789" class="button">Download the CPTAC-CCRCC Dataset</a></li>
-                <li><a href="https://portal.gdc.cancer.gov/projects/TCGA-KIRC" class="button">Download the TCGA-KIRC Dataset</a></li>
-                <li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/ct_filenames.csv" class="button">Download the CSV</a></li>
+                <li><a href="https://www.cancerimagingarchive.net/collection/cptac-ccrcc/" class="button">CPTAC Data</a></li>
+				<li><a href="https://www.cancerimagingarchive.net/collection/tcga-kirc/" class="button">TCIA Data</a></li>
+				<li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/encoded_three_updated_with_filenames%20(1)%20(2).csv" class="button">Access the csv here!</a></li>
+
             </ul>
-            <h3>Download the MRI images</h3>
-            <p>Below you can access the MRI images (CPTAC+MRI+Images: 43GB) as well as the CSV with the filenames and IDs that we used in our repository.</p>
-            <ul class="actions">
-                <li><a href="https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=70230536" class="button">Download the CPTAC-CCRCC Dataset</a></li>
-                <li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/mri_filenames.csv" class="button">Download the CSV</a></li>
-            </ul>
+            
+      
         </div>
     </section>
 </body>
