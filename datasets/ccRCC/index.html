@@ -126,23 +126,25 @@ is still a very challenging task. The ongoing research on this topic has led to 
 					<h2>Download the Multi-Modal Data</h2>
 					<h3>Download WSIs</h3>
 						<ul>
-							    <p>Our data is from CPTAC and TCGA. Bellow you have the links where you can access the original datasets. Be aware that the TCGA has XX Gb and CPTAC XXGb.</p>
+							    <p>Bellow you have the links where you can access the original dataset both from TCGA ( XXGB) and CPTAC ('Tissue Slide Images' with 190GB) and the csv containng the selected files that we used.</p> Be aware that for the TCGA we give you the manifest file where you can directly use in the GDC Data Transfer tool.</p>
 						</ul>
 					<h2></h2>
 					<ul class="actions">
-							<li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/gdc_manifest.2024-05-27.txt" class="button">TCGA Data</a></li>
-							<li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/gdc_manifest.2024-05-27.txt" class="button">TCGA Data Manifest</a></li>
-							<li><a href="https://faspex.cancerimagingarchive.net/aspera/faspex/public/package?context=eyJyZXNvdXJjZSI6InBhY2thZ2VzIiwidHlwZSI6ImV4dGVybmFsX2Rvd25sb2FkX3BhY2thZ2UiLCJpZCI6IjU4NCIsInBhc3Njb2RlIjoiMTczZGYwYjBmMTI1Y2IxOTY0MmU2NmIyOGIzYzdlMjkwMmJjNWU1MiIsInBhY2thZ2VfaWQiOiI1ODQiLCJlbWFpbCI6ImhlbHBAY2FuY2VyaW1hZ2luZ2FyY2hpdmUubmV0In0=&redirected=true" class="button">CPTAC Data</a></li>
-					</ul>
+						<li><a href="https://faspex.cancerimagingarchive.net/aspera/faspex/public/package?context=eyJyZXNvdXJjZSI6InBhY2thZ2VzIiwidHlwZSI6ImV4dGVybmFsX2Rvd25sb2FkX3BhY2thZ2UiLCJpZCI6IjU4NCIsInBhc3Njb2RlIjoiMTczZGYwYjBmMTI1Y2IxOTY0MmU2NmIyOGIzYzdlMjkwMmJjNWU1MiIsInBhY2thZ2VfaWQiOiI1ODQiLCJlbWFpbCI6ImhlbHBAY2FuY2VyaW1hZ2luZ2FyY2hpdmUubmV0In0=&redirected=true" class="button">CPTAC Data</a></li>
+						<li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/gdc_manifest.2024-05-27.txt" class="button">TCGA Data Manifest</a></li>
+						<li><a href="https://gdc.cancer.gov/access-data/gdc-data-transfer-tool" class="button">Learn more about GDC Data Transfer Tool</a></li>	
+					</ul>	
 				</div>
 				<div class="container">
 					<h3>Download of CTs and MRI</h3>
 						<ul>
-							    <p>Our data is from TCIA. Bellow you have the links where you can access the original dataset and the csv. We discarded the localization scans, the pre-contrast ones, and scans that were acquired with a significant time lapse from the diagnosis (years). Moreover, we have also observed that the axial view was the most prevalent both in CT and MRI. This has led to the removal of scans from the coronal and sagittal views, to minimize
-domain shifts. In the end, we reduced the number of volumes to 736 for CT and 552 for MRI</p>
+							    <p>Bellow you have the links where you can access the original dataset both from TCIA ('Images' 91.56GB) and CPTAC ('Radiology Images' with 56.58GB) and the csv containng the selected files.</p>
+							    <p>We discarded the localization scans, the pre-contrast ones, and scans that were acquired with a significant time lapse from the diagnosis (years). Moreover, we have also observed that the axial view was the most prevalent both in CT and MRI. This has led to the removal of scans from the coronal and sagittal views, to minimize
+domain shifts. In the end, we reduced the number of volumes to 736 for CT and 552 for MRI.</p>
 						</ul>
 					<h2></h2>
 					<ul class="actions">
+							<li><a href="https://www.cancerimagingarchive.net/collection/cptac-ccrcc/" class="button">CPTAC Data</a></li>
 							<li><a href="https://www.cancerimagingarchive.net/collection/tcga-kirc/" class="button">TCIA Data</a></li>
 							<li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/encoded_three_updated_with_filenames%20(1)%20(2).csv" class="button">Access the csv here!</a></li>
 					</ul>
@@ -151,7 +153,19 @@ domain shifts. In the end, we reduced the number of volumes to 736 for CT and 55
 					<h2>Use our Features</h2>
 					<h3>Access the CT/MRI/WSI Features</h3>
 						<ul>
-							    <p>Here you can access to the different folders containing the multi-modal features.</p>
+							    <p>Here you can access the different folders containing the multi-modal features.</p>
+						</ul>
+					<ul class="actions">
+							<li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/encoded_three_updated_with_filenames%20(1)%20(2).csv" class="button">CT Features </a></li>
+						<li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/encoded_three_updated_with_filenames%20(1)%20(2).csv" class="button">MRI Features </a></li>
+						<li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/encoded_three_updated_with_filenames%20(1)%20(2).csv" class="button">WSI Features </a></li>
+					</ul>
+				</div>
+				<div class="container">
+					<h2>Per Patient Files (selected using MIL)</h2>
+					<h3>Access the CT/MRI/WSI Features</h3>
+						<ul>
+							    <p>Here you can access the different cvs that contain the selected files per patient. The different folders containing the multi-modal features.</p>
 						</ul>
 					<ul class="actions">
 							<li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/encoded_three_updated_with_filenames%20(1)%20(2).csv" class="button">CT Features </a></li>
@@ -160,10 +174,21 @@ domain shifts. In the end, we reduced the number of volumes to 736 for CT and 55
 					</ul>
 				</div>
 				
-				
+	
+				<div class="container">
+					<h2>Scientific Paper</h2>
+						<ul>
+							    <p>Tiago Mota, Maria Rita Fonseca Verdelho, Diogo José Pereira Araújo, Alceu Bissoto, Carlos Santiago, Catarina Barata,</p>
+							    <p>MMIST-ccRCC: A Real World Medical Dataset for the Development of Multi-Modal Systems, Data Curation and Augmentation in Enhancing Medical Imaging Applications Workshop (non-archival) @CVPR 2024 </p>
+						</ul>
+					<ul class="actions">
+							<li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/encoded_three_updated_with_filenames%20(1)%20(2).csv" class="button">CT Features </a></li>
+						<li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/encoded_three_updated_with_filenames%20(1)%20(2).csv" class="button">MRI Features </a></li>
+						<li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/encoded_three_updated_with_filenames%20(1)%20(2).csv" class="button">WSI Features </a></li>
+					</ul>
+				</div>
+
 			</section>
-		
-		
 							    
 			<!-- Four -->
 			<section id="four" class="main style1 special">
