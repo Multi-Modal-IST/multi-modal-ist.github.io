@@ -1,202 +1,222 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title> MMIST ccRCC repository Dataset</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<link rel="apple-touch-icon" sizes="57x57" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/apple-icon-57x57.png">
-		<link rel="apple-touch-icon" sizes="60x60" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/apple-icon-60x60.png">
-		<link rel="apple-touch-icon" sizes="72x72" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/apple-icon-72x72.png">
-		<link rel="apple-touch-icon" sizes="76x76" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/apple-icon-76x76.png">
-		<link rel="apple-touch-icon" sizes="114x114" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/apple-icon-114x114.png">
-		<link rel="apple-touch-icon" sizes="120x120" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/apple-icon-120x120.png">
-		<link rel="apple-touch-icon" sizes="144x144" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/apple-icon-144x144.png">
-		<link rel="apple-touch-icon" sizes="152x152" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/apple-icon-152x152.png">
-		<link rel="apple-touch-icon" sizes="180x180" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/apple-icon-180x180.png">
-		<link rel="icon" type="image/png" sizes="192x192"  href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/android-icon-192x192.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="96x96" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/favicon-96x96.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/favicon-16x16.png">
-		<link rel="manifest" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/manifest.json">
-		<meta name="msapplication-TileColor" content="#ffffff">
-		<meta name="msapplication-TileImage" content="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/ms-icon-144x144.png">
-		<!-- Change theme-color to pink -->
-		<meta name="theme-color" content="#ff00ff">
-		<meta property="og:title" content="MMIST">
-		<meta property="og:description" content="Medical Imaging Multimodality User Interface Project">
-		<meta property="og:image" content="https://github.com/Multi-Modal-IST/meta/raw/master/headers/breast_cancer_women.png?raw=true">
-		<meta property="og:url" content="https://Multi-Modal-IST.github.io/">
-		<meta property="og:site_name" content="MMIST">
-		<meta name="twitter:title" content="MMIST">
-		<meta name="twitter:description" content="Medical Imaging Multimodality Diagnosis User Interface Project">
-		<meta name="twitter:image" content="https://github.com/Multi-Modal-IST/meta/raw/master/headers/breast_cancer_women.png?raw=true">
-		<meta name="twitter:image:alt" content="MMIST">
-		<meta name="twitter:card" content="summary_large_image">
-		<meta name="twitter:site" content="@opprGroup">
-		<meta property="fb:app_id" content="1233333316741054" />
-		<!-- Change header background to pink -->
-		<style>
-			#header {
-				background-color: #cc6699; /* Pink color */
-			}
-			#footer {
-				background-color: #cc6699; / Pink color */
-				}
-		</style>
-	</head>
-	<body>
+<head>
+    <title>MMIST ccRCC Dataset</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    <link rel="apple-touch-icon" sizes="57x57" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/favicon-16x16.png">
+    <link rel="manifest" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/ms-icon-144x144.png">
+    <!-- Change theme-color to pink -->
+    <meta name="theme-color" content="#ff00ff">
+    <meta property="og:title" content="MMIST">
+    <meta property="og:description" content="Medical Imaging Multimodality User Interface Project">
+    <meta property="og:image" content="https://github.com/Multi-Modal-IST/meta/raw/master/headers/breast_cancer_women.png?raw=true">
+    <meta property="og:url" content="https://Multi-Modal-IST.github.io/">
+    <meta property="og:site_name" content="MMIST">
+    <meta name="twitter:title" content="MMIST">
+    <meta name="twitter:description" content="Medical Imaging Multimodality Diagnosis User Interface Project">
+    <meta name="twitter:image" content="https://github.com/Multi-Modal-IST/meta/raw/master/headers/breast_cancer_women.png?raw=true">
+    <meta name="twitter:image:alt" content="MMIST">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@opprGroup">
+    <meta property="fb:app_id" content="1233333316741054" />
+    <!-- Change header background to pink -->
+    <style>
+        #header {
+            background-color: #cc6699; /* Pink color */
+        }
+        #footer {
+            background-color: #cc6699; /* Pink color */
+        }
+    </style>
+</head>
+<body>
 
+    <!-- One -->
+    <section id="one" class="main style1">
+        <div class="container">
+            <div class="row 150%">
+                <div class="6u 12u$(medium)">
+                    <header class="major">
+                        <h1>MMIST ccRCC Dataset</h1>
+                    </header>
+                    <p>ccRCC is the most common type of kidney cancer, accounting for up to 80% of all renal cell carcinoma cases in adults. Estimating the prognosis is critical for patient management, but it is still a very challenging task. Ongoing research on this topic has led to the creation of two public studies: CPTAC-CCRCC and TCGA-KIRC, from which we curated MMIST-ccRCC.</p>
+                </div>
+                <div class="6u$ 12u$(medium) important(medium)">
+                    <span class="image fit"><img src="images/human-kidneys.jpg" alt="" /></span>
+                </div>
+            </div>
+
+            <h1>Number of Modalities Across the Dataset</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Patients</th>
+                        <th>CT</th>
+                        <th>MRI</th>
+                        <th>WSI</th>
+                        <th>Genomics</th>
+                        <th>Clinical</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Train</td>
+                        <td>497</td>
+                        <td>189</td>
+                        <td>35</td>
+                        <td>497</td>
+                        <td>361</td>
+                        <td>497</td>
+                    </tr>
+                    <tr>
+                        <td>Test</td>
+                        <td>121</td>
+                        <td>59</td>
+                        <td>13</td>
+                        <td>121</td>
+                        <td>101</td>
+                        <td>121</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td>618</td>
+                        <td>248</td>
+                        <td>48</td>
+                        <td>618</td>
+                        <td>462</td>
+                        <td>618</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container">
+            <h3>Patients' Clinical and Genomic Data</h3>
+            <p>Here you can access the metadata with the train/test split (from CPTAC and TCGA repositories).</p>
+            <ul class="actions">
+                <li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/encoded_three_updated_with_filenames%20(1)%20(2).csv" class="button">Access the CSV here!</a></li>
+            </ul>
+        </div>
+	    
+        <div class="container">
+            <h1>Download the Multi-Modal Data</h1>
+            
+            <h3>Download WSIs</h3>
+            <p>Below you have the links where you can access the original dataset both from TCGA (XXGB) and CPTAC ('Tissue Slide Images': with 190GB) and the CSV containing the selected files that we used. Be aware that for the TCGA we provide the manifest file that you can use directly with the GDC Data Transfer tool.</p>
+            <ul class="actions">
+                <li><a href="https://faspex.cancerimagingarchive.net/aspera/faspex/public/package?context=eyJyZXNvdXJjZSI6InBhY2thZ2VzIiwidHlwZSI6ImV4dGVybmFsX2Rvd25sb2FkX3BhY2thZ2UiLCJpZCI6IjU4NCIsInBhc3Njb2RlIjoiMTczZGYwYjBmMTI1Y2IxOTY0MmU2NmIyOGIzYzdlMjkwMmJjNWU1MiIsInBhY2thZ2VfaWQiOiI1ODQiLCJlbWFpbCI6ImhlbHBAY2FuY2VyaW1hZ2luZ2FyY2hpdmUubmV0In0=&redirected=true" class="button">CPTAC Data</a></li>
+				<li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/gdc_manifest.2024-05-27.txt" class="button">TCGA Data Manifest</a></li>
+            </ul>
+            
+            <h3>Download the CT and MRI images</h3>
+            <p>Below you can access the CT and MRI images from the same patients both from TCGA ('Images': 91.56GB) and CPTAC repositories ('Radiology Images': 56.58GB), as well as the CSV with the filenames and IDs that we used in our repository.</p>
+	<p>We discarded the localization scans, the pre-contrast ones, and scans that were acquired with a significant time lapse from the diagnosis (years). We also removed the scans from the coronal and sagittal views, to minimize
+            domain shifts. We reduced the number of volumes to 736 for CT and 552 for MRI.</p>
+            <ul class="actions">
+                <li><a href="https://www.cancerimagingarchive.net/collection/cptac-ccrcc/" class="button">CPTAC Data</a></li>
+				<li><a href="https://www.cancerimagingarchive.net/collection/tcga-kirc/" class="button">TCIA Data</a></li>
+				<li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/encoded_three_updated_with_filenames%20(1)%20(2).csv" class="button">Access the csv here!</a></li>
+
+            </ul>
+            
+      
+        </div>
+
+	<div class="container">
+	    <h1>Use Our Features</h1>
+	   <p>If you don't want to download the original images, you can use our features.</p> 
+	    <h3>Access the CT/MRI/WSI Features</h3>
+	    <p>Here you can access the different folders containing the multi-modal features:</p>
+	    <ul class="actions">
+	        <li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/encoded_three_updated_with_filenames%20(1)%20(2).csv" class="button">CT Features</a></li>
+	        <li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/encoded_three_updated_with_filenames%20(1)%20(2).csv" class="button">MRI Features</a></li>
+	        <li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/encoded_three_updated_with_filenames%20(1)%20(2).csv" class="button">WSI Features</a></li>
+	    </ul>
+	</div>
+
+	<div class="container">
+	    <h1>Per Patient Files (Selected Using MIL)</h1>
+	    <h3>Access the CT/MRI/WSI Features</h3>
+	    <p>Several patients presented more than one CT/MRI scan and WSI image. We opted to reduce the amount of data used by our multi-modal system to a single CT, MRI, and WSI per patient. 
+	       We implemented a novel patient-level MIL framework that automatically selects the best imaging modalities from the available pool. 
+	       Here you can access the different CSV files containing the selected files per patient that were used in our paper:</p>
+	    <ul class="actions">
+		<li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/encoded_three_updated_with_filenames%20(1)%20(2).csv" class="button">CT Features</a></li>
+		<li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/encoded_three_updated_with_filenames%20(1)%20(2).csv" class="button">MRI Features</a></li>
+		<li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/encoded_three_updated_with_filenames%20(1)%20(2).csv" class="button">WSI Features</a></li>
+	    </ul>
+	</div>
+	
+	<div class="container">
+	    <h1>Scientific Paper</h1>
+	    <p>If you want more information about this dataset feel free to read our paper: </p>
+	    <p>Tiago Mota, Maria Rita Fonseca Verdelho, Diogo José Pereira Araújo, Alceu Bissoto, Carlos Santiago, Catarina Barata,
+	    MMIST-ccRCC: A Real-World Medical Dataset for the Development of Multi-Modal Systems, Data Curation and Augmentation in Enhancing Medical Imaging Applications Workshop (non-archival) @CVPR 2024.</p>
+	    <ul class="actions">
+		<li><a href="https://arxiv.org/html/2405.01658v1" class="button">Access the Paper Here!</a></li>
+	    </ul>
+	</div>
+	
+
+	</section>
+					    
+	<!-- Four -->
+	<section id="four" class="main style1 special">
+		<div class="container">
+			<h4>How to cite us?</h4>
+				<ul>
+				    <p>Cite the paper where the dataset was first published and acknowledge us: "The results shown in this work used datasets collected from MMIST: https://Multi-Modal-IST.github.io/"</p>
+				</ul>
+			<h2>Get in Touch at</h2>
+				<ul>
+				    <h5>ana.c.fidalgo.barata@tecnico.ulisboa.pt</h5>
+				</ul>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<section id="footer">
+		<ul class="icons">
+			<li><a href="https://github.com/Multi-Modal-IST" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
 			
+		</ul>
+		<ul class="copyright">
+			<li>Copyright &copy; <a href="http://welcome.isr.tecnico.ulisboa.pt/">ISR-Lisboa</a> 2018</li>
+			<li>Proudly Powered by <a href="http://oppr.io/">oppr</a> &nbsp;&#8226;&nbsp; Develop by <a href="http://dev.oppr.io/">opprDev</a> Team</li>
+		</ul>
+	</section>
 
-		<!-- One -->
-			<section id="one" class="main style1">
-				<div class="container">
-					<div class="row 150%">
-						<div class="6u 12u$(medium)">
-							<header class="major">
-								<h2>MMIST ccRCC Dataset</h2>
-							</header>
-							<p>ccRCC is the most common type of kidney cancer, making up to 80% of all renal cell carcinoma cases in adults. Estimating the prognosis is critical for patient management, but
-is still a very challenging task. The ongoing research on this topic has led to the creation of two public studies:CPTAC-CCRCC and TCGA-KIRC, from which we curated MMIST-ccRCC.<p/>
-						</div>
-						<div class="6u$ 12u$(medium) important(medium)">
-							<span class="image fit"><img src="images/human-kidneys.jpg" alt="" /></span>
-						</div>
-					</div>
-
-					<h1>Number of modalities across the Dataset</h1>
-					<table>
-						<thead>
-							<tr>
-								<th></th>
-								<th>Patients</th>
-								<th>CT</th>
-								<th>MRI</th>
-								<th>WSI</th>
-								<th>Genomics</th>
-								<th>Clinical</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>Train</td>
-								<td>497</td>
-								<td>189</td>
-								<td>35</td>
-								<td>497</td>
-								<td>361</td>
-								<td>497</td>
-							</tr>
-							<tr>
-								<td>Test</td>
-								<td>121</td>
-								<td>59</td>
-								<td>13</td>
-								<td>121</td>
-								<td>101</td>
-								<td>121</td>
-							</tr>
-							<tr>
-								<td>Total</td>
-								<td>618</td>
-								<td>248</td>
-								<td>48</td>
-								<td>618</td>
-								<td>462</td>
-								<td>618</td>
-							</tr>
-						</tbody>
-					</table>
-				</div>
-				<div class="container">
-					<h3>Patients clinical and genomic data</h3>
-						<ul>
-						    <p>Here you can access the metadata with the train/test Split (from CPTAC and TCGA Repositories).</p>
-						</ul>
-					<h2></h2>
-					<ul class="actions">
-							<li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/encoded_three_updated_with_filenames%20(1)%20(2).csv" class="button">Access the csv here!</a></li>
-					</ul>
-				</div>
-				<div class="container">
-					<h2>Download the Multi-Modal Data</h2>
-					<h3>Download WSIs</h3>
-						<ul>
-							    <p>Our data is from CPTAC and TCGA. Bellow you have the links where you can access the original datasets. Be aware that the TCGA has XX Gb and CPTAC XXGb.</p>
-						</ul>
-					<h2></h2>
-					<ul class="actions">
-							<li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/encoded_three_updated_with_filenames%20(1)%20(2).csv" class="button">TCGA Data</a></li>
-							<li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/encoded_three_updated_with_filenames%20(1)%20(2).csv" class="button">CPTAC Data</a></li>
-					</ul>
-				</div>
-				<div class="container">
-					<h3>Download of CTs and MRI</h3>
-						<ul>
-							    <p>Our data is from TCIA. Bellow you have the links where you can access the original dataset and the csv. We discarded the localization scans, the pre-contrast ones, and scans that were acquired with a significant time lapse from the diagnosis (years). Moreover, we have also observed that the axial view was the most prevalent both in CT and MRI. This has led to the removal of scans from the coronal and sagittal views, to minimize
-domain shifts. In the end, we reduced the number of volumes to 736 for CT and 552 for MRI</p>
-						</ul>
-					<h2></h2>
-					<ul class="actions">
-							<li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/encoded_three_updated_with_filenames%20(1)%20(2).csv" class="button">TCIA Data</a></li>
-							<li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/encoded_three_updated_with_filenames%20(1)%20(2).csv" class="button">Access the csv here!</a></li>
-					</ul>
-				</div>
-				<div class="container">
-					<h2>Use our Features</h2>
-					<h3>Access the CT/MRI/WSI Features</h3>
-						<ul>
-							    <p>Here you can access to the different folders containing the multi-modal features.</p>
-						</ul>
-					<ul class="actions">
-							<li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/encoded_three_updated_with_filenames%20(1)%20(2).csv" class="button">CT Features </a></li>
-						<li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/encoded_three_updated_with_filenames%20(1)%20(2).csv" class="button">MRI Features </a></li>
-						<li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/encoded_three_updated_with_filenames%20(1)%20(2).csv" class="button">WSI Features </a></li>
-					</ul>
-				</div>
-				
-				
-			</section>
-		
-		
-							    
-			<!-- Four -->
-			<section id="four" class="main style1 special">
-				<div class="container">
-					<h4>How to cite us?</h4>
-						<ul>
-						    <p>Cite the paper where the dataset was first published and acknowledge us: "The results shown in this work used datasets collected from MMIST: https://Multi-Modal-IST.github.io/"</p>
-						</ul>
-					<h2>Get in Touch at</h2>
-	               			        <ul>
-					            <h5>ana.c.fidalgo.barata@tecnico.ulisboa.pt</h5>
-					        </ul>
-				</div>
-			</section>
-
-			<!-- Footer -->
-			<section id="footer">
-				<ul class="icons">
-					<li><a href="https://github.com/Multi-Modal-IST" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
-					
-				</ul>
-				<ul class="copyright">
-					<li>Copyright &copy; <a href="http://welcome.isr.tecnico.ulisboa.pt/">ISR-Lisboa</a> 2018</li>
-					<li>Proudly Powered by <a href="http://oppr.io/">oppr</a> &nbsp;&#8226;&nbsp; Develop by <a href="http://dev.oppr.io/">opprDev</a> Team</li>
-				</ul>
-			</section>
-
-			<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="assets/js/main.js"></script>
 
 	</body>
+</html>
+
+
+    </section>
+</body>
 </html>
