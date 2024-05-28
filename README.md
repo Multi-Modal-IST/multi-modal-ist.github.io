@@ -1,6 +1,6 @@
 # MMIST
 Welcome to the MMIST project. Our goal is to acquire, curate, and publicly release multi-modal datasets of different types of cancer to support and advance the research on personalized medicine for oncology patients.
-To access the MMIST website click [here](https://multi-modal-ist-mmist.github.io/)!
+To access the MMIST website click [here](https://multi-modal-ist.github.io/)!
 
 
 ### Current Multimodal Datasets:
