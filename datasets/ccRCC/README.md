@@ -1,10 +1,5 @@
-# MMIST
-Welcome to the MMIST project. Our goal is to acquire, curate, and publicly release multi-modal datasets of different types of cancer to support and advance the research on personalized medicine for oncology patients.
-To access the MMIST website click [here](https://multi-modal-ist-mmist.github.io/)!
-
-
-### Current Multimodal Datasets:
-- [MMIST-ccRcc](https://github.com/Multi-Modal-IST-MMIST/Multi-Modal-IST-MMIST.github.io/wiki/Dataset)
+# MMIST-ccRcc
+ccRCC is the most common type of kidney cancer, accounting for up to 80% of all renal cell carcinoma cases in adults. Estimating the prognosis is critical for patient management, but it is still a very challenging task. Ongoing research on this topic has led to the creation of two public studies: CPTAC-CCRCC and TCGA-KIRC, from which we curated MMIST-ccRCC. [MMIST-ccRcc](https://github.com/Multi-Modal-IST-MMIST/Multi-Modal-IST-MMIST.github.io/wiki/Dataset)
   
 #### Institute for Systems and Robotics (ISR-Lisboa)
 Abstracted from a Project Report at [ISR](http://welcome.isr.tecnico.ulisboa.pt/), [IST](http://tecnico.ulisboa.pt/) - [Universidade de Lisboa](http://ulisboa.pt/).
