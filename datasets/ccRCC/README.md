@@ -1,5 +1,5 @@
 # MMIST-ccRcc
-ccRCC is the most common type of kidney cancer, accounting for up to 80% of all renal cell carcinoma cases in adults. Estimating the prognosis is critical for patient management, but it is still a very challenging task. Ongoing research on this topic has led to the creation of two public studies: CPTAC-CCRCC and TCGA-KIRC, from which we curated MMIST-ccRCC. [MMIST-ccRcc](https://github.com/Multi-Modal-IST-MMIST/Multi-Modal-IST-MMIST.github.io/wiki/Dataset)
+ccRCC is the most common type of kidney cancer, accounting for up to 80% of all renal cell carcinoma cases in adults. Estimating the prognosis is critical for patient management, but it is still a very challenging task. Ongoing research on this topic has led to the creation of two public studies: CPTAC-CCRCC and TCGA-KIRC, from which we curated MMIST-ccRCC. [MMIST-ccRcc](https://multi-modal-ist.github.io/datasets/ccRCC/)
 
 ### Number of modalities acrooss the Dataset
 
