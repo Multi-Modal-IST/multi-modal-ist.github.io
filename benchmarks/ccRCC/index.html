@@ -101,29 +101,64 @@
 
 <section id="one" class="main style1">
     <div class="container">
-        <header class="major">
-            <h2>Baselines Without MIL (WSI-Only and 5 runs, Verdelho et al.)</h2>
+       <header class="major">
+            <h2>Baselines Sem-MIL (Verdelho et al., 2024)</h2>
         </header>
 
+        <p>Results are organized into WSI-specific prediction and Patient-specific aggregation strategies for survival prediction at 500 days using WSI-only data.</p>
+
+        <h3>WSI-Specific Models</h3>
         <table>
             <thead>
                 <tr>
-                    <th>Method</th>
-                    <th>WSI Balanced Accuracy </th>
+                    <th>Model</th>
+                    <th>Balanced Accuracy (500 days)</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>Majority Voting (GNN Models)</td>
-                    <td>73</td>
+                    <td>GCN (Single WSI)</td>
+                    <td>~0.70</td>
                 </tr>
                 <tr>
-                    <td>One Dominance (GraphSAGE)</td>
-                    <td>75</td>
+                    <td>GAT (1 head, Single WSI)</td>
+                    <td>~0.72</td>
                 </tr>
                 <tr>
-                    <td>MIL Mean Aggregation (GraphSAGE)</td>
-                    <td>76</td>
+                    <td>GAT (2 heads, Single WSI)</td>
+                    <td>~0.73</td>
+                </tr>
+                <tr>
+                    <td>GraphSAGE FB (mean, Single WSI)</td>
+                    <td>~0.75</td>
+                </tr>
+                <tr>
+                    <td>GraphSAGE FB (max, Single WSI)</td>
+                    <td>~0.74</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Patient-Specific Aggregation</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Aggregation Method</th>
+                    <th>Balanced Accuracy (500 days)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Majority Voting</td>
+                    <td>~0.73</td>
+                </tr>
+                <tr>
+                    <td>One Dominance</td>
+                    <td>~0.75</td>
+                </tr>
+                <tr>
+                    <td>Patient-level MIL (mean)</td>
+                    <td>~0.76</td>
                 </tr>
             </tbody>
         </table>
