@@ -1,0 +1,479 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>MMIST ccRCC Dataset</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    <link rel="apple-touch-icon" sizes="57x57" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/favicon-16x16.png">
+    <link rel="manifest" href="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="https://github.com/Multi-Modal-IST/Multi-Modal-IST.github.io/blob/master/images/ms-icon-144x144.png">
+    <!-- Change theme-color to pink -->
+    <meta name="theme-color" content="#ff00ff">
+    <meta property="og:title" content="MMIST">
+    <meta property="og:description" content="Medical Imaging Multimodality User Interface Project">
+    <meta property="og:image" content="https://github.com/Multi-Modal-IST/meta/raw/master/headers/breast_cancer_women.png?raw=true">
+    <meta property="og:url" content="https://Multi-Modal-IST.github.io/">
+    <meta property="og:site_name" content="MMIST">
+    <meta name="twitter:title" content="MMIST">
+    <meta name="twitter:description" content="Medical Imaging Multimodality Diagnosis User Interface Project">
+    <meta name="twitter:image" content="https://github.com/Multi-Modal-IST/meta/raw/master/headers/breast_cancer_women.png?raw=true">
+    <meta name="twitter:image:alt" content="MMIST">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@opprGroup">
+    <meta property="fb:app_id" content="1233333316741054" />
+    <!-- Change header background to pink -->
+    <style>
+        #header {
+            background-color: #cc6699; /* Pink color */
+        }
+        #footer {
+            background-color: #cc6699; /* Pink color */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- One -->
+    <section id="one" class="main style1">
+        <div class="container">
+	 <header class="major">
+		<h1>MMIST ccRCC Dataset</h1>
+	    </header>
+            <div class="row 150%">
+                <div class="6u 12u$(medium)">
+                    <p>ccRCC is the most common type of kidney cancer, accounting for up to 80% of all renal cell carcinoma cases in adults. Estimating the prognosis is critical for patient management, but it is still a very challenging task. Ongoing research on this topic has led to the creation of two public studies: CPTAC-CCRCC and TCGA-KIRC, from which we curated MMIST-ccRCC.</p>
+                </div>
+                <div class="6u$ 12u$(medium) important(medium)">
+                    <span class="image fit"><img src="images/human-kidneys.jpg" alt="" /></span>
+                </div>
+            </div>
+	 </div>
+</section>
+<section id="one" class="main style1">
+        <div class="container">
+            <h1>Number of Modalities Across the Dataset</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Patients</th>
+                        <th>CT</th>
+                        <th>MRI</th>
+                        <th>WSI</th>
+                        <th>Genomics</th>
+                        <th>Clinical</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Train</td>
+                        <td>497</td>
+                        <td>189</td>
+                        <td>35</td>
+                        <td>497</td>
+                        <td>361</td>
+                        <td>497</td>
+                    </tr>
+                    <tr>
+                        <td>Test</td>
+                        <td>121</td>
+                        <td>59</td>
+                        <td>13</td>
+                        <td>121</td>
+                        <td>101</td>
+                        <td>121</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td>618</td>
+                        <td>248</td>
+                        <td>48</td>
+                        <td>618</td>
+                        <td>462</td>
+                        <td>618</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="container">
+            <h3>Patients' Clinical and Genomic Data</h3>
+            <p>Here you can access the metadata with the train/test split (from CPTAC and TCGA repositories).</p>
+            <ul class="actions">
+                <li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/clinical%2Bgenomic_split.csv" class="button">Access the CSV here!</a></li>
+            </ul>
+        </div>
+</section>
+
+ <section id="one" class="main style1">
+        <div class="container">
+            <h1>Download the Multi-Modal Data</h1>
+            
+            <h3>Download WSIs</h3>
+            <p>Below you have the links where you can access the original dataset both from TCGA (XXGB) and CPTAC ('Tissue Slide Images': with 190GB) and the CSV containing the selected files that we used. Be aware that for the TCGA we provide the manifest file that you can use directly with the GDC Data Transfer tool.</p>
+            <ul class="actions">
+                <li><a href="https://faspex.cancerimagingarchive.net/aspera/faspex/public/package?context=eyJyZXNvdXJjZSI6InBhY2thZ2VzIiwidHlwZSI6ImV4dGVybmFsX2Rvd25sb2FkX3BhY2thZ2UiLCJpZCI6IjU4NCIsInBhc3Njb2RlIjoiMTczZGYwYjBmMTI1Y2IxOTY0MmU2NmIyOGIzYzdlMjkwMmJjNWU1MiIsInBhY2thZ2VfaWQiOiI1ODQiLCJlbWFpbCI6ImhlbHBAY2FuY2VyaW1hZ2luZ2FyY2hpdmUubmV0In0=&redirected=true" class="button">CPTAC Data</a></li>
+				<li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/gdc_manifest.2024-05-27.txt" class="button">TCGA Data Manifest</a></li>
+            </ul>
+            
+            <h3>Download the CT and MRI images</h3>
+            <p>Below you can access the CT and MRI images from the same patients both from TCGA ('Images': 91.56GB) and CPTAC repositories ('Radiology Images': 56.58GB), as well as the CSV with the filenames and IDs that we used in our repository.</p>
+	<p>We discarded the localization scans, the pre-contrast ones, and scans that were acquired with a significant time lapse from the diagnosis (years). We also removed the scans from the coronal and sagittal views, to minimize
+            domain shifts. We reduced the number of volumes to 736 for CT and 552 for MRI.</p>
+            <ul class="actions">
+                <li><a href="https://www.cancerimagingarchive.net/collection/cptac-ccrcc/" class="button">CPTAC Data</a></li>
+				<li><a href="https://www.cancerimagingarchive.net/collection/tcga-kirc/" class="button">TCIA Data</a></li>
+				<li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/patients_with_labels_CT_final.csv" class="button">CT csv</a></li>
+		    <li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/patients_with_labels_MR_final.csv" class="button">MRI csv</a></li>
+
+            </ul>
+            
+      
+        </div>
+</section>
+<section id="one" class="main style1">
+	<div class="container">
+	    <h1>Use Our Features</h1>
+	   <p>If you don't want to download the original images, you can use our features.</p> 
+	    <h3>Access the CT/MRI/WSI Features</h3>
+	    <p>Here you can access the different folders containing the multi-modal features:</p>
+	    <ul class="actions">
+	        <li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/tree/master/datasets/ccRCC/Code/Features/CT%20Features" class="button">CT Features</a></li>
+		<li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/tree/master/datasets/ccRCC/Code/Features/MRI%20Features" class="button">MRI Features</a></li>
+		<li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/tree/master/datasets/ccRCC/Code/Features/WSI%20Features" class="button">WSI Features</a></li>
+	    </ul>
+	</div>
+</section>
+<section id="one" class="main style1">
+	<div class="container">
+	    <h1>Per Patient Files (Selected Using MIL)</h1>
+	    <h3>Access the CT/MRI/WSI Features</h3>
+	    <p>Several patients presented more than one CT/MRI scan and WSI image. We opted to reduce the amount of data used by our multi-modal system to a single CT, MRI, and WSI per patient. 
+	       We implemented a novel patient-level MIL framework that automatically selects the best imaging modalities from the available pool. 
+	       Here you can access the different CSV files containing the selected files per patient that were used in our paper:</p>
+	    <ul class="actions">
+		<li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/WSI_patientfiles.csv" class="button">WSI csv</a></li>
+		<li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/MRI_patientfiles.csv" class="button">MRI csv</a></li>
+		<li><a href="https://github.com/Multi-Modal-IST/multi-modal-ist.github.io/blob/master/datasets/ccRCC/Code/CT_patientfiles.csv" class="button">CT csv</a></li>
+	    </ul>
+	</div>
+</section>
+
+<section id="one" class="main style1">
+    <div class="container">
+        <h1>Model Hyperparameter Settings</h1>
+        <p>The following tables provide a detailed summary of the hyperparameters and configurations used for various model architectures in our study. Each table specifies the parameters applied for different data types and model configurations.</p>
+
+        <h3>MIL Models</h3>
+        <p>This table summarizes the hyperparameters for the Multiple Instance Learning (MIL) models, including specific settings for CT, MRI, and Pathology data. Key hyperparameters such as epochs, architecture, learning rates, optimizers, and validation metrics are outlined for each modality.</p>
+        <table border="1">
+            <caption>Table A.1: MIL Models Hyperparameters</caption>
+            <tr>
+                <th>Models</th>
+                <th>MIL CT</th>
+                <th>MIL MRI</th>
+                <th>MIL Pathology</th>
+            </tr>
+            <tr>
+                <td>Epochs</td>
+                <td>60</td>
+                <td>60</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Architecture</td>
+                <td>3 FC</td>
+                <td>3 FC</td>
+                <td>4 FC</td>
+            </tr>
+            <tr>
+                <td>Hidden Sizes</td>
+                <td>[256,128]</td>
+                <td>[256,128]</td>
+                <td>[512, 256, 128]</td>
+            </tr>
+            <tr>
+                <td>Initial LR</td>
+                <td>1e-3</td>
+                <td>1e-3</td>
+                <td>1e-3</td>
+            </tr>
+            <tr>
+                <td>LR Scheduler</td>
+                <td>Step</td>
+                <td>Step</td>
+                <td>Step</td>
+            </tr>
+            <tr>
+                <td>LR Settings</td>
+                <td>Step size = 30<br>Gamma = 1e-2</td>
+                <td>Step size = 30<br>Gamma = 1e-2</td>
+                <td>Step size = 30<br>Gamma = 1e-2</td>
+            </tr>
+            <tr>
+                <td>Optimizer</td>
+                <td>SGD</td>
+                <td>Adam</td>
+                <td>AdamW</td>
+            </tr>
+            <tr>
+                <td>Oversample</td>
+                <td>8x</td>
+                <td>16x</td>
+                <td>8x</td>
+            </tr>
+            
+        </table>
+
+        <h3>Base Models</h3>
+        <p>Table A.2 provides the hyperparameter settings for base models across different modalities and configurations, including CT, MRI, Pathology, Clingen, and multi-modality approaches like Weighted Sum, Learn Weights, Mean, and Concat. Each model has its specific optimizer, learning rate schedule, batch size, and other settings detailed in this table.</p>
+        <table border="1">
+            <caption>Table A.2: Base Models Hyperparameters</caption>
+            <tr>
+                <th>Models</th>
+                <th>Base CT</th>
+                <th>Base MRI</th>
+                <th>Base Path</th>
+                <th>Base Clingen</th>
+                <th>Weighted Sum</th>
+                <th>Learn Weights</th>
+                <th>Mean</th>
+                <th>Concat</th>
+            </tr>
+            <tr>
+                <td>Epochs</td>
+                <td>60</td>
+                <td>60</td>
+                <td>60</td>
+                <td>60</td>
+                <td>60</td>
+                <td>60</td>
+                <td>120</td>
+                <td>120</td>
+            </tr>
+            <tr>
+                <td>Architecture</td>
+                <td>3L</td>
+                <td>3L</td>
+                <td>3L</td>
+                <td>3L</td>
+                <td>3L</td>
+                <td>3L</td>
+                <td>5L</td>
+                <td>5L</td>
+            </tr>
+            <tr>
+                <td>Hidden Sizes</td>
+                <td>128</td>
+                <td>128</td>
+                <td>128</td>
+                <td>128</td>
+                <td>128</td>
+                <td>128</td>
+                <td>128</td>
+                <td>128</td>
+            </tr>
+            <tr>
+                <td>Initial LR</td>
+                <td>1e-3</td>
+                <td>1e-3</td>
+                <td>1e-4</td>
+                <td>1e-3</td>
+                <td>1e-3</td>
+                <td>1e-3</td>
+                <td>1e-3</td>
+                <td>1e-3</td>
+            </tr>
+            <tr>
+                <td>LR Scheduler</td>
+                <td>Cosine</td>
+                <td>Cosine</td>
+                <td>Const</td>
+                <td>Const</td>
+                <td>Const</td>
+                <td>Cosine</td>
+                <td>Cosine</td>
+                <td>Cosine</td>
+            </tr>
+	    <tr>
+                <td>LR Settings</td>
+                <td>Default</td>
+                <td>Default</td>
+                <td>None</td>
+                <td>None</td>
+                <td>None</td>
+                <td>Default</td>
+                <td>Default</td>
+                <td>Default</td>
+            </tr>
+            <tr>
+                <td>Optimizer</td>
+                <td>AdamW</td>
+                <td>SGD</td>
+                <td>SGD</td>
+                <td>AdamW</td>
+                <td>AdamW</td>
+                <td>AdamW</td>
+                <td>AdamW</td>
+                <td>SGD</td>
+            </tr>
+            <tr>
+                <td>Oversample</td>
+                <td>None</td>
+                <td>None</td>
+                <td>6x</td>
+                <td>6x</td>
+                <td>6x</td>
+                <td>6x</td>
+                <td>6x</td>
+                <td>6x</td>
+            </tr>
+            <tr>
+                <td>Batch Size</td>
+                <td>14</td>
+                <td>14</td>
+                <td>14</td>
+                <td>14</td>
+                <td>14</td>
+                <td>14</td>
+                <td>14</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>Batch Norm</td>
+                <td>No</td>
+                <td>No</td>
+                <td>No</td>
+                <td>No</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td>Yes</td>
+            </tr>
+        </table>
+
+        <h3>Reconstruction Encoder-Decoder Model</h3>
+        <p>This table outlines the hyperparameter settings for the encoder-decoder model architecture. It includes the number of epochs, learning rate, optimizer, and other relevant hyperparameters used specifically for this model.</p>
+        <table border="1">
+            <caption>Table A.3: Encoder-Decoder Model Hyperparameters</caption>
+            <tr>
+                <th>Model</th>
+                <th>Encoder - Decoder</th>
+            </tr>
+            <tr>
+                <td>Epochs</td>
+                <td>600</td>
+            </tr>
+            <tr>
+                <td>Architecture Encoder</td>
+                <td>2 FC</td>
+            </tr>
+            <tr>
+                <td>Architecture Decoder</td>
+                <td>2 FC</td>
+            </tr>
+            <tr>
+                <td>Hidden Sizes</td>
+                <td>128</td>
+            </tr>
+            <tr>
+                <td>Initial LR</td>
+                <td>1e-3</td>
+            </tr>
+            <tr>
+                <td>LR Scheduler</td>
+                <td>Cosine</td>
+            </tr>
+            <tr>
+                <td>Optimizer</td>
+                <td>AdamW</td>
+            </tr>
+            <tr>
+                <td>Oversample</td>
+                <td>6x</td>
+            </tr>
+            <tr>
+                <td>Batch Size</td>
+                <td>14</td>
+            </tr>
+            <tr>
+                <td>Batch Normalization</td>
+                <td>No</td>
+            </tr>
+        </table>
+    </div>
+</section>
+
+	
+<section id="one" class="main style1">
+	<div class="container">
+	    <h1>Scientific Paper</h1>
+	    <p>If you want more information about this dataset feel free to read our paper: </p>
+	    <p>Tiago Mota, Maria Rita Fonseca Verdelho, Diogo José Pereira Araújo, Alceu Bissoto, Carlos Santiago, Catarina Barata,
+	    MMIST-ccRCC: A Real-World Medical Dataset for the Development of Multi-Modal Systems, Data Curation and Augmentation in Enhancing Medical Imaging Applications Workshop (archival) @CVPR 2024.</p>
+	    <ul class="actions">
+		<li><a href="https://arxiv.org/html/2405.01658v1" class="button">Access the Paper Here!</a></li>
+	    </ul>
+	</div>
+	
+
+	</section>
+					    
+	<!-- Four -->
+	<section id="four" class="main style1 special">
+		<div class="container">
+			<h4>How to cite us?</h4>
+				<ul>
+				    <p>Cite the paper where the dataset was first published and acknowledge us: "The results shown in this work used datasets collected from MMIST: https://Multi-Modal-IST.github.io/"</p>
+				</ul>
+			<h2>Get in Touch at</h2>
+				<ul>
+				    <h5>ana.c.fidalgo.barata@tecnico.ulisboa.pt</h5>
+				</ul>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<section id="footer">
+		<ul class="icons">
+			<li><a href="https://github.com/Multi-Modal-IST" class="icon alt fa-github"><span class="label">GitHub</span></a></li>
+			
+		</ul>
+		<ul class="copyright">
+			<li>Copyright &copy; <a href="http://welcome.isr.tecnico.ulisboa.pt/">ISR-Lisboa</a> 2018</li>
+			<li>Proudly Powered by <a href="http://oppr.io/">oppr</a> &nbsp;&#8226;&nbsp; Develop by <a href="http://dev.oppr.io/">opprDev</a> Team</li>
+		</ul>
+	</section>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
+
+
+    </section>
+</body>
+</html>
