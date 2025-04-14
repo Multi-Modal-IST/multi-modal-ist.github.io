@@ -69,8 +69,73 @@
 
 <section id="one" class="main style1">
     <div class="container">
+        <header class="major">
+            <h2>Baseline with MIL (CVPRW 2024)</h2>
+        </header>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Modality</th>
+                    <th>Balanced Accuracy (%)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>CT (MIL)</td>
+                    <td>61.57</td>
+                </tr>
+                <tr>
+                    <td>MRI (MIL)</td>
+                    <td>83.33</td>
+                </tr>
+                <tr>
+                    <td>WSI (MIL)</td>
+                    <td>69.94</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+
+<section id="one" class="main style1">
+    <div class="container">
+        <header class="major">
+            <h2>Baselines Without MIL (WSI-Only and 5 runs, Verdelho et al.)</h2>
+        </header>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Method</th>
+                    <th>WSI Balanced Accuracy </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Majority Voting (GNN Models)</td>
+                    <td>73</td>
+                </tr>
+                <tr>
+                    <td>One Dominance (GraphSAGE)</td>
+                    <td>75</td>
+                </tr>
+                <tr>
+                    <td>MIL Mean Aggregation (GraphSAGE)</td>
+                    <td>76</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p><i>~ Values are estimated from published bar plots.</i></p>
+    </div>
+</section>
+
+<section id="one" class="main style1">
+    <div class="container">
          <header class="major">
-            <h2>Baselines MIL (CVPR 2024)</h2>
+            <h2>Multi-Modal wth MIL (CVPR 2024)</h2>
         </header>
 
         <table>
@@ -132,70 +197,6 @@
                     <td>83.27</td>
                     <td>83.27</td>
                     <td>83.27</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</section>
-
-<section id="one" class="main style1">
-    <div class="container">
-        <header class="major">
-            <h2>Baselines Without MIL (WSI-Only and 5 runs, Verdelho et al.)</h2>
-        </header>
-
-        <table>
-            <thead>
-                <tr>
-                    <th>Method</th>
-                    <th>WSI Balanced Accuracy </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Majority Voting (GNN Models)</td>
-                    <td>73</td>
-                </tr>
-                <tr>
-                    <td>One Dominance (GraphSAGE)</td>
-                    <td>75</td>
-                </tr>
-                <tr>
-                    <td>MIL Mean Aggregation (GraphSAGE)</td>
-                    <td>76</td>
-                </tr>
-            </tbody>
-        </table>
-
-        <p><i>~ Values are estimated from published bar plots.</i></p>
-    </div>
-</section>
-
-<section id="one" class="main style1">
-    <div class="container">
-        <header class="major">
-            <h2>Multi-Modal com MIL (CVPRW 2024)</h2>
-        </header>
-
-        <table>
-            <thead>
-                <tr>
-                    <th>Modality</th>
-                    <th>Balanced Accuracy (%)</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>CT (MIL)</td>
-                    <td>61.57</td>
-                </tr>
-                <tr>
-                    <td>MRI (MIL)</td>
-                    <td>83.33</td>
-                </tr>
-                <tr>
-                    <td>WSI (MIL)</td>
-                    <td>69.94</td>
                 </tr>
             </tbody>
         </table>
