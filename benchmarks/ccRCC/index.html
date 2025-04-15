@@ -144,31 +144,38 @@
         </table>
 
         <h3>Patient-Specific Aggregation</h3>
-        <table>
-            <thead>
-                <tr>
-                    <th>Aggregation Method</th>
-                    <th>Balanced Accuracy (12 months)</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Majority Voting</td>
-                    <td>~0.73</td>
-                </tr>
-                <tr>
-                    <td>One Dominance</td>
-                    <td>~0.75</td>
-                </tr>
-                <tr>
-                    <td>Patient-level MIL (mean)</td>
-                    <td>~0.76</td>
-                </tr>
-            </tbody>
-        </table>
+	<table>
+	    <thead>
+	        <tr>
+	            <th>Aggregation</th>
+	            <th>Model</th>
+	            <th>Bacc ± Std</th>
+	        </tr>
+	    </thead>
+	    <tbody>
+	        <!-- Majority Voting -->
+	        <tr><td rowspan="5">Majority Voting</td><td>GCN</td><td>0.6795 ± 0.0208</td></tr>
+	        <tr><td>GAT 1 head</td><td>0.6801 ± 0.0336</td></tr>
+	        <tr><td>GAT 2 head</td><td>0.6856 ± 0.0242</td></tr>
+	        <tr><td>GraphSAGE FB (mean)</td><td>0.7078 ± 0.0446</td></tr>
+	        <tr><td>GraphSAGE FB (max)</td><td>0.6938 ± 0.0298</td></tr>
+	
+	        <!-- One Dominance -->
+	        <tr><td rowspan="5">One Dominance</td><td>GCN</td><td>0.7023 ± 0.0255</td></tr>
+	        <tr><td>GAT 1 head</td><td>0.6918 ± 0.0318</td></tr>
+	        <tr><td>GAT 2 head</td><td>0.6970 ± 0.0261</td></tr>
+	        <tr><td>GraphSAGE FB (mean)</td><td><b>0.7104 ± 0.0212</b></td></tr>
+	        <tr><td>GraphSAGE FB (max)</td><td>0.6949 ± 0.0527</td></tr>
+	
+	        <!-- MIL WSI -->
+	        <tr><td rowspan="5">MIL WSI</td><td>GCN</td><td><b>0.7505 ± 0.0018</b></td></tr>
+	        <tr><td>GAT 1 head</td><td>0.7241 ± 0.0211</td></tr>
+	        <tr><td>GAT 2 head</td><td><b>0.7642 ± 0.0162</b></td></tr>
+	        <tr><td>GraphSAGE FB (mean)</td><td>0.7346 ± 0.0292</td></tr>
+	        <tr><td>GraphSAGE FB (max)</td><td>0.7135 ± 0.0213</td></tr>
+	    </tbody>
+	</table>
 
-        <p><i>WSI-Specific results are exact. Patient-specific values are estimated from barplots.</i></p>
-        <p><small>Source: <a href="https://arxiv.org/abs/2503.23042" target="_blank">MIL vs. Aggregation (2024)</a></small></p>
     </div>
 </section>
 	
