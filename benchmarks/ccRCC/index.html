@@ -116,7 +116,7 @@
             <thead>
                 <tr>
                     <th>Model</th>
-                    <th>Balanced Accuracy (12 months)</th>
+                    <th>Balanced Accuracy</th>
                 </tr>
             </thead>
             <tbody>
@@ -149,30 +149,30 @@
 	        <tr>
 	            <th>Aggregation</th>
 	            <th>Model</th>
-	            <th>Bacc ± Std</th>
+	            <th>Bacc ± Std (12 months)</th>
 	        </tr>
 	    </thead>
 	    <tbody>
 	        <!-- Majority Voting -->
-	        <tr><td rowspan="5">Majority Voting</td><td>GCN</td><td>0.6795 ± 0.0208</td></tr>
-	        <tr><td>GAT 1 head</td><td>0.6801 ± 0.0336</td></tr>
-	        <tr><td>GAT 2 head</td><td>0.6856 ± 0.0242</td></tr>
-	        <tr><td>GraphSAGE FB (mean)</td><td>0.7078 ± 0.0446</td></tr>
-	        <tr><td>GraphSAGE FB (max)</td><td>0.6938 ± 0.0298</td></tr>
+	        <tr><td rowspan="5">Majority Voting</td><td>GCN</td><td>67.95 ± 2.08</td></tr>
+	        <tr><td>GAT 1 head</td><td>68.01 ± 3.36</td></tr>
+	        <tr><td>GAT 2 head</td><td>68.56 ± 2.42</td></tr>
+	        <tr><td>GraphSAGE FB (mean)</td><td>70.78 ± 4.46</td></tr>
+	        <tr><td>GraphSAGE FB (max)</td><td>69.38 ± 2.98</td></tr>
 	
 	        <!-- One Dominance -->
-	        <tr><td rowspan="5">One Dominance</td><td>GCN</td><td>0.7023 ± 0.0255</td></tr>
-	        <tr><td>GAT 1 head</td><td>0.6918 ± 0.0318</td></tr>
-	        <tr><td>GAT 2 head</td><td>0.6970 ± 0.0261</td></tr>
-	        <tr><td>GraphSAGE FB (mean)</td><td>0.7104 ± 0.0212</td></tr>
-	        <tr><td>GraphSAGE FB (max)</td><td>0.6949 ± 0.0527</td></tr>
+	        <tr><td rowspan="5">One Dominance</td><td>GCN</td><td>70.23 ± 2.55</td></tr>
+	        <tr><td>GAT 1 head</td><td>69.18 ± 3.18</td></tr>
+	        <tr><td>GAT 2 head</td><td>69.70 ± 2.61</td></tr>
+	        <tr><td>GraphSAGE FB (mean)</td><td>71.04 ± 2.12</td></tr>
+	        <tr><td>GraphSAGE FB (max)</td><td>69.49 ± 5.27</td></tr>
 	
 	        <!-- MIL WSI -->
-	        <tr><td rowspan="5">MIL WSI</td><td>GCN</td><td>0.7505 ± 0.0018</td></tr>
-	        <tr><td>GAT 1 head</td><td>0.7241 ± 0.0211</td></tr>
-	        <tr><td<b>>GAT 2 head</b></td><td><b>0.7642 ± 0.0162</b></td></tr>
-	        <tr><td>GraphSAGE FB (mean)</td><td>0.7346 ± 0.0292</td></tr>
-	        <tr><td>GraphSAGE FB (max)</td><td>0.7135 ± 0.0213</td></tr>
+	        <tr><td rowspan="5">MIL WSI</td><td>GCN</td><td>75.05 ± 0.18</td></tr>
+	        <tr><td>GAT 1 head</td><td>72.41 ± 2.11</td></tr>
+	        <tr><td<b>>GAT 2 head</b></td><td><b>76.42 ± 1.62</b></td></tr>
+	        <tr><td>GraphSAGE FB (mean)</td><td>73.46 ± 2.92</td></tr>
+	        <tr><td>GraphSAGE FB (max)</td><td>71.35 ± 2.13</td></tr>
 	    </tbody>
 	</table>
 
