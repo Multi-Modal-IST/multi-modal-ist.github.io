@@ -101,40 +101,40 @@
 
 <section id="one" class="main style1">
     <div class="container">
-       <header class="major">
-            <h2>Baselines Sem-MIL (Verdelho et al., 2024)</h2>
+        <header class="major">
+            <h2>Baseline Without MIL (Verdelho et al., 2024)</h2>
         </header>
 
-        <p>Results are organized into WSI-specific prediction and Patient-specific aggregation strategies for survival prediction at 500 days using WSI-only data.</p>
+        <p>Results are organized into WSI-specific prediction and Patient-specific aggregation strategies for survival prediction at 12 months using WSI-only data.</p>
 
         <h3>WSI-Specific Models</h3>
         <table>
             <thead>
                 <tr>
                     <th>Model</th>
-                    <th>Balanced Accuracy (500 days)</th>
+                    <th>Balanced Accuracy (12 months)</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>GCN (Single WSI)</td>
-                    <td>~0.70</td>
+                    <td>GCN</td>
+                    <td>0.6873 ± 0.0061</td>
                 </tr>
                 <tr>
-                    <td>GAT (1 head, Single WSI)</td>
-                    <td>~0.72</td>
+                    <td>GAT (1 head)</td>
+                    <td>0.6917 ± 0.0118</td>
                 </tr>
                 <tr>
-                    <td>GAT (2 heads, Single WSI)</td>
-                    <td>~0.73</td>
+                    <td>GAT (2 heads)</td>
+                    <td>0.6866 ± 0.0181</td>
                 </tr>
                 <tr>
-                    <td>GraphSAGE FB (mean, Single WSI)</td>
-                    <td>~0.75</td>
+                    <td><b>GraphSAGE FB (mean)</b></td>
+                    <td><b>0.7003 ± 0.0089</b></td>
                 </tr>
                 <tr>
-                    <td>GraphSAGE FB (max, Single WSI)</td>
-                    <td>~0.74</td>
+                    <td>GraphSAGE FB (max)</td>
+                    <td>0.6998 ± 0.0135</td>
                 </tr>
             </tbody>
         </table>
@@ -144,7 +144,7 @@
             <thead>
                 <tr>
                     <th>Aggregation Method</th>
-                    <th>Balanced Accuracy (500 days)</th>
+                    <th>Balanced Accuracy (12 months)</th>
                 </tr>
             </thead>
             <tbody>
@@ -163,10 +163,11 @@
             </tbody>
         </table>
 
-        <p><i>~ Values are estimated from published bar plots.</i></p>
+        <p><i>WSI-Specific results are exact. Patient-specific values are estimated from barplots.</i></p>
+        <p><small>Source: <a href="https://arxiv.org/abs/2503.23042" target="_blank">MIL vs. Aggregation (2024)</a></small></p>
     </div>
 </section>
-
+	
 <section id="one" class="main style1">
     <div class="container">
          <header class="major">
