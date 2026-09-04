@@ -21,7 +21,7 @@ Lung cancer is one of the most prevalent and lethal malignancies worldwide. To s
 
 ### Imaging Data
 
-The dataset contains **5,427 whole-slide images**, **482 CT scans**, and **144 PET volumes**. Patients may have multiple imaging instances per modality, reflecting the heterogeneity and longitudinal nature of real-world clinical data. :contentReference[oaicite:2]{index=2}
+The dataset contains **5,427 whole-slide images**, **482 CT scans**, and **144 PET volumes**. Patients may have multiple imaging instances per modality, reflecting the heterogeneity and longitudinal nature of real-world clinical data. 
 
 ### Longitudinal Data
 
