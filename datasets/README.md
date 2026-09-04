@@ -6,7 +6,6 @@ To access the MMIST website click [here](https://multi-modal-ist.github.io/)!
 ### Current Multimodal Datasets:
 - [MMIST-ccRcc](https://multi-modal-ist.github.io/datasets/ccRCC/)
 
-### Current Multimodal Datasets:
 - [MMIST-lung](https://multi-modal-ist.github.io/datasets/lung/)
   
 #### Institute for Systems and Robotics (ISR-Lisboa)
