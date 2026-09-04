@@ -19,8 +19,6 @@ Lung cancer is one of the most prevalent and lethal malignancies worldwide. To s
 | CT | 71 | 95% | 58 (82%) | 13 (18%) |
 | PET | 33 | 98% | 26 (79%) | 7 (21%) |
 
-:contentReference[oaicite:1]{index=1}
-
 ### Imaging Data
 
 The dataset contains **5,427 whole-slide images**, **482 CT scans**, and **144 PET volumes**. Patients may have multiple imaging instances per modality, reflecting the heterogeneity and longitudinal nature of real-world clinical data. :contentReference[oaicite:2]{index=2}
