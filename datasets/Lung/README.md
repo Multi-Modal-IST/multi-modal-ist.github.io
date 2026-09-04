@@ -1,6 +1,6 @@
 # MMIST-Lung
 
-Lung cancer is one of the most prevalent and lethal malignancies worldwide. To support the development and evaluation of multi-modal learning methods under realistic clinical conditions, we curated **MMIST-Lung**, a multi-center, multi-modal, and longitudinal lung cancer dataset comprising **1,365 patients**. The cohort combines data from **CPTAC-LSCC, CPTAC-LUAD, TCGA-LUSC, and TCGA-LUAD**, including 1,026 patients from TCGA and 339 from CPTAC, and covers both Lung Squamous Cell Carcinoma (LUSC/LSCC) and Lung Adenocarcinoma (LUAD). The dataset integrates clinical information, transcriptomic profiles, whole-slide images (WSI), CT and PET scans, as well as longitudinal follow-up and treatment data. :contentReference[oaicite:0]{index=0}
+Lung cancer is one of the most prevalent and lethal malignancies worldwide. To support the development and evaluation of multi-modal learning methods under realistic clinical conditions, we curated **MMIST-Lung**, a multi-center, multi-modal, and longitudinal lung cancer dataset comprising **1,365 patients**. The cohort combines data from **CPTAC-LSCC, CPTAC-LUAD, TCGA-LUSC, and TCGA-LUAD**, including 1,026 patients from TCGA and 339 from CPTAC, and covers both Lung Squamous Cell Carcinoma (LUSC/LSCC) and Lung Adenocarcinoma (LUAD). The dataset integrates clinical information, transcriptomic profiles, whole-slide images (WSI), CT and PET scans, as well as longitudinal follow-up and treatment data.
 
 [MMIST-Lung](https://multi-modal-ist.github.io/datasets/Lung/)
 
