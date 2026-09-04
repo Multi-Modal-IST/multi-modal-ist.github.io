@@ -35,6 +35,6 @@ Curated at [ISR](http://welcome.isr.tecnico.ulisboa.pt/), [IST](http://tecnico.u
 
 #### Contact Info
 
-[rita.cordeiro@tecnico.ulisboa.pt](mailto:rita.cordeiro@tecnico.ulisboa.pt), [ritaverdelho@tecnico.ulisboa.pt](mailto:ritaverdelho@tecnico.ulisboa.pt)
+[ana.c.fidalgo.barata@tecnico.ulisboa.pt](mailto:ana.c.fidalgo.barata@tecnico.ulisboa.pt)
 
   
